@@ -7,8 +7,7 @@ The Flight Route Optimization Program was developed for the Datathon 2.0 hackath
 ## Problem Statement
 
 
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-08-31 004348](https://github.com/user-attachments/assets/e74a94e6-f64b-43da-ab04-dc607fc62fca)
 
 
 ## Installation
@@ -52,26 +51,19 @@ The Flight Route Optimization Program was developed for the Datathon 2.0 hackath
 
 In this step, you select the Flight ID from the available options.
 
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![11](https://github.com/user-attachments/assets/82ce397b-d08b-4eef-abfd-bb67d388bcda)
 
 ### Weather Conditions and Rerouting
 
 Here, you can view the weather conditions for all cities. If, for example, Delhi has adverse weather conditions by the time the flight is scheduled to arrive, the system will suggest rerouting through Mumbai instead. Note that the map is not to scale.
 
-
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![12](https://github.com/user-attachments/assets/6b6cf99a-e589-46c1-b903-b8f5579873f7)
 
 ### Visualize the Map
 
 Finally, visualize the optimized flight path on the map, reflecting the new route taken to avoid bad weather.
 
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![13](https://github.com/user-attachments/assets/4effa3be-d418-4406-b32b-8bc0943cee09)
 ## Acknowledgements
 
  - Anlytika for hosting Datathon 2.0 hackathon
