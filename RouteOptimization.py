@@ -74,7 +74,7 @@ def plot(G, primary_path, alternate_path, dep_city, arr_city):
 
 
 
-filename = 'Cities_FlightDuration_Mins.csv'
+filename = 'csv\Cities_FlightDuration_Mins.csv'
 nodes, graph_data = load_data(filename)
 G = create_graph(nodes, graph_data)
 

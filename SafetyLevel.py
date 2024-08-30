@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 import pickle
 
-weather_data = pd.read_csv('M1_final.csv')
+weather_data = pd.read_csv('csv\M1_final.csv')
 
 
 label_mapping = {

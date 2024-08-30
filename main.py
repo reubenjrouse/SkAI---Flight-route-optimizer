@@ -15,10 +15,10 @@ from PIL import Image, ImageTk
 
 
 warnings.filterwarnings("ignore")
-fl_df = pd.read_csv('Flight_Database.csv') 
-weather_data = pd.read_csv('M1_final.csv')
-cities_weather = pd.read_csv('weather_data_cities.csv')
-cities_time = pd.read_csv('Cities_FlightDuration_Mins.csv')
+fl_df = pd.read_csv('csv\Flight_Database.csv') 
+weather_data = pd.read_csv('csv\M1_final.csv')
+cities_weather = pd.read_csv('csv\weather_data_cities.csv')
+cities_time = pd.read_csv('csv\Cities_FlightDuration_Mins.csv')
 label_mapping = {
     ' Fair / Windy ': 3, ' Fair ': 1, ' Light Rain / Windy ': 7, ' Partly Cloudy ': 2,
     ' Mostly Cloudy ': 2, ' Cloudy ': 5, ' Light Rain ': 6, ' Mostly Cloudy / Windy ': 8,
@@ -42,7 +42,7 @@ model.fit(X_train, y_train)
 
 
 
-filename = 'Cities_FlightDuration_Mins.csv'
+filename = 'csv\Cities_FlightDuration_Mins.csv'
 nodes, graph_data = load_data(filename)
 G = create_graph(nodes, graph_data)
 
@@ -455,7 +455,7 @@ get_info_button = CTkButton(
 )
 
 get_info_button.place(relx=0.5, rely=0.6, anchor="center")
-logo_path = "Group 1finalLogo.png" 
+logo_path = "assets\Group 1finalLogo.png" 
 logo = Image.open(logo_path)
 
 
