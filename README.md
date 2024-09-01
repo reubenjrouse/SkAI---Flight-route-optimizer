@@ -64,6 +64,15 @@ Here, you can view the weather conditions for all cities. If, for example, Delhi
 Finally, visualize the optimized flight path on the map, reflecting the new route taken to avoid bad weather.
 
 ![13](https://github.com/user-attachments/assets/4effa3be-d418-4406-b32b-8bc0943cee09)
+
+## Authors
+
+- [@AryaanPe](https://github.com/AryaanPe)
+- [@Arman-02](https://github.com/Arman-02)
+- [@reubenjrouse](https://github.com/reubenjrouse)
+
+
+
 ## Acknowledgements
 
  - Anlytika for hosting Datathon 2.0 hackathon
